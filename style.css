@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f9;
+}
+
+.container {
+    text-align: center;
+}
+
+.btn {
+    padding: 15px 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 10px;
+    transition: transform 0.2s, background-color 0.3s;
+    font-weight: bold;
+}
+
+/* Estilo do Botão 1 */
+#btn-primario {
+    background-color: #007bff;
+    color: white;
+}
+
+#btn-primario:hover {
+    background-color: #0056b3;
+    transform: scale(1.05); /* Aumenta levemente */
+}
+
+/* Estilo do Botão 2 */
+#btn-secundario {
+    background-color: #28a745;
+    color: white;
+}
+
+#btn-secundario:active {
+    transform: scale(0.95); /* Efeito de "pressionado" */
+}
